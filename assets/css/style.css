@@ -1,0 +1,113 @@
+body{
+    background: rgb(235, 223, 223);
+}
+.container{
+    margin-top: 30px;
+    margin-bottom:100px ;
+}
+
+.images{
+    width:300px;
+    height: 300px;
+    float: left;
+    margin-top:5px; 
+    
+}
+.animalDiv{
+    margin-top: 30px;
+    float: left;
+    margin-right: 15px;
+}
+#animal-form{
+    float: right;
+    font-weight: bold;
+   
+    padding-top: 30px;
+};
+
+ 
+    
+
+section{
+   width: 600px;
+}
+button ,#add-animal{
+   
+ 
+    color: white;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    margin: 4px 2px;
+    cursor: pointer; 
+    background-color:  rgb(226, 102, 149);
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 16px;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 7px;
+    box-shadow:0 0 5px;   
+}
+
+/* mouse over link */
+button:hover {
+    
+    color:  rgb(226, 102, 149);
+    background: white;
+}
+#add-animal:hover {
+    
+    color:  rgb(226, 102, 149);
+    background: white;
+}
+/* selected link */
+button:active {
+background-color: red;
+border-radius: 10px;
+    border:none;
+}
+label {
+    color:  black;
+    font-weight: bold;
+    display: block;
+    width: 150px;
+    float: left;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 18px;
+    
+    }
+    /* get red from blue border */
+    button:focus {
+        outline:0;
+        background:red; 
+    }
+    #add-animal:focus {
+        outline:0;
+    }
+    #animal-input{
+        box-shadow:0 0 5px white;
+        padding: 5px;
+    }
+    .title{
+        color: white;
+        background-color:  rgb(226, 102, 149);
+        font-size: 18px;
+        text-align: center;
+        padding: 7px;
+     
+
+    }
+    footer{
+
+        clear: both;
+        margin-top: 100px ;
+        margin-bottom: 0px;
+        position: fixed;
+        bottom: 0%;
+        width: 100%;
+        background:rgb(226, 102, 149); 
+        padding: 20px;
+        text-align: center;
+       
+        }
+
